@@ -4,7 +4,7 @@ const { MessageType } = require("@adiwajshing/baileys");
 
 Asena.addCommand(
 
-  { pattern: "vv", fromMe: true, desc: "Anti viewOnce" },
+  { pattern: "once", fromMe: true, desc: "Anti viewOnce" },
 
   async (message, match) => {
 
